@@ -1,5 +1,5 @@
 function forEach(array, cb){
-	for (item of array){
+	for (let item of array){
 		cb(item)
 	}
 }
