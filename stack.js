@@ -9,9 +9,11 @@ Stack.prototype.push = function(object){
 }
 
 Stack.prototype.pop = function(){
-	this._storage.pop()
+	return this._storage.pop()
 }
 
 Stack.prototype.size = function(){
 	return this._storage.length
 }
+
+module.exports = Stack
